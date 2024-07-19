@@ -1,0 +1,2 @@
+my name is hashaam
+i am studing file handling
