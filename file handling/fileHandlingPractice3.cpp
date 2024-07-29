@@ -26,7 +26,7 @@ int main() {
 
     string st,line;
     ifstream read;
-    read.open("test3.txt");
+    read.open("test3.txt");//open (filename, mode)
     getline(read,line);//it will store full line in variable line
     read>>st;//it will store first word in string st
     cout<<st<<endl;

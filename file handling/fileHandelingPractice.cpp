@@ -3,15 +3,16 @@
 using namespace std;
 
 int main() {
-//     file handeling
+//    file handeling
 //    create
-//    open 
+//    open
 //    write
 //    read
 //    close
 
 //    if you want to write in the file then use ofstream
-    ofstream write("test1.txt");//this function will create a file
+    ofstream write("test1.txt");//this function will create a  "ofstream (Output File Stream)"
+    
     write << "my name is hashaam" <<endl;
     write << "i am studing file handling" <<endl;//it will write content in the file
     write.close();// It's good practice to close the file after writing
@@ -24,6 +25,10 @@ int main() {
     cout<<st<<endl;
     cout <<line;
     read.close();// It's good practice to close the file after writing
+    
+    cout << __TIME__ <<endl ;
+    cout << __DATE__ <<endl ;
+    cout << __FILE__ <<endl ;
     return 0;
 }
 
