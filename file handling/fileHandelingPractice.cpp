@@ -19,14 +19,13 @@ int main() {
 
 //  if you want to write in the file then use ofstream
     string st,line;
-    ifstream read("test1.txt");
+    ifstream read("test1.txt");  //"ifstream (Inout File Stream)"
     getline(read,line);//it will store full line in variable line
     read>>st;//it will store first word in string st
     cout<<st<<endl;
     cout <<line;
     read.close();// It's good practice to close the file after writing
-    
-    cout << __TIME__ <<endl ;
+    cout<< endl << __TIME__ <<endl ;
     cout << __DATE__ <<endl ;
     cout << __FILE__ <<endl ;
     return 0;
